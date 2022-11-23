@@ -1,9 +1,10 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./inputshort.css";
 
 const InputShortener = ({ setInputValue }) => {
   const [value, setValue] = useState("");
-
+  const navigate = useNavigate();
   const handleClick = () => {
     setInputValue(value);
     setValue("");
