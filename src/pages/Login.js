@@ -24,7 +24,7 @@ function Login() {
     try {
       dispatch(showLoading());
       const response = await axios.post(
-        "http://localhost:7602/api/user/login",
+        " https://url-shorrtner.herokuapp.com/api/user/login",
         values
       );
       dispatch(hideLoading());
@@ -44,7 +44,7 @@ function Login() {
     try {
       toast.loading("");
       const response = await axios.post(
-        "http://localhost:7602/api/user/send-password-reset-link",
+        " https://url-shorrtner.herokuapp.com/api/user/send-password-reset-link",
         {
           email,
         }

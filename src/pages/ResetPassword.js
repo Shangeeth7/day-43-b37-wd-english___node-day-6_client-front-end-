@@ -15,7 +15,7 @@ function ResetPassword() {
     try {
       toast.loading();
       const response = await axios.post(
-        "http://localhost:7602/api/user/resetpassword",
+        " https://url-shorrtner.herokuapp.com/api/user/resetpassword",
         {
           password,
           token: params.token,

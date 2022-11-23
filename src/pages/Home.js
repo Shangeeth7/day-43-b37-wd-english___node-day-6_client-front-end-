@@ -12,7 +12,7 @@ function Home() {
   //   try {
   //     dispatch(showLoading());
   //     const response = await axios.get(
-  //       "http://localhost:7602/api/user/get-all-approved-mechanics",
+  //       " https://url-shorrtner.herokuapp.com/api/user/get-all-approved-mechanics",
   //       {
   //         headers: {
   //           Authorization: "Bearer " + localStorage.getItem("token"),

@@ -17,7 +17,7 @@ function Register() {
     try {
       dispatch(showLoading());
       const response = await axios.post(
-        "http://localhost:7602/api/user/register",
+        " https://url-shorrtner.herokuapp.com/api/user/register",
         values
       );
       dispatch(hideLoading());

@@ -11,7 +11,7 @@ function VerifyEmail() {
     try {
       toast.loading();
       const response = await axios.post(
-        "http://localhost:7602/api/user/verifyemail",
+        " https://url-shorrtner.herokuapp.com/api/user/verifyemail",
         {
           token: params.token,
         }

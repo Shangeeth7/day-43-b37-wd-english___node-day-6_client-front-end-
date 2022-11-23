@@ -21,7 +21,7 @@ function MessageUs() {
       try {
         dispatch(showLoading());
         const response = await axios.post(
-          "http://localhost:7602/api/user/message",
+          " https://url-shorrtner.herokuapp.com/api/user/message",
           values
         );
         dispatch(hideLoading());
